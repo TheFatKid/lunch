@@ -6,7 +6,10 @@ body {
       color: orange;
       background-color: black;
     }
-    
+    timer {
+      font-family: 'Courier New', Courier, monospace;
+    }
+
     question {
       display: flex;
       align-items: center;
@@ -19,6 +22,8 @@ body {
       justify-content: space-between;
       min-height: 10vh;
       font-size: 1.5rem;
+      font-family: 'Courier New', Courier, monospace;
+      color: green;
     }
     
     .big-text {
