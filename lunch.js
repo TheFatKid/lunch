@@ -23,7 +23,7 @@
   document.getElementById("lunchTime").innerHTML = (lunchTime(now));
 
   function kimIsReady() {
-    return true;
+    return ofCourse;
   }
   document.getElementById("kimIsReady").innerHTML = (kimIsReady());
 
