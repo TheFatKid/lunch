@@ -5,6 +5,8 @@ body {
     font-family: Helvetica;
     color: white;
     background: linear-gradient(135deg, #FC5C7D 0%, #6A82FB 100%);
+    font-family: 'Sansita Swashed', cursive;
+    text-align: center;
     }
     timer {
       font-family: 'Courier New', Courier, monospace;
@@ -15,6 +17,9 @@ body {
       align-items: center;
       justify-content: space-between;
       min-height: 10vh;
+      font-family: 'Quicksand', sans-serif;
+      text-align: center;
+
     }
     answer {
       display: flex;
@@ -24,6 +29,7 @@ body {
       font-size: 1.5rem;
       font-family: 'Courier New', Courier, monospace;
       color: green;
+      text-align: center;
     }
     
     .big-text {
