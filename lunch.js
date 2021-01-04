@@ -38,7 +38,7 @@
         currentDay = "Today is Sunday, and today you eat at home!";
         break;
       case 1:
-        currentDay = "Today is Monday and the menu is: ";
+        currentDay = "Today is Monday and the menu is: Meatballs in curry with rice.";
         break;
       case 2:
         currentDay = "Today is Tuesday and the menu is: Coq au vin with mashed potatoes.";
