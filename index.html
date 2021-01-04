@@ -10,26 +10,48 @@
 <body>
   <main>
     <h2 class="big-text">
-      Is it time for lunch?
+      LUNCH?
     </h2>
   </main>
-  <timer>
-    <p id="currentTime"></p>
-  </timer>
-  <question>
-    <p>
+  <div class="wrapper">
+    <timer>
+        <p id="currentTime"></p>
+      </timer>
+  </div>
+    <weekday>
+        <p id="Day"></p>
+      </weekday>
+<questions>
+<div class="col_fifth">
+  <question1>
+    <p> 
       Is it a working day?
     </p>
+    </question1>
+    <answer>
+        <p id="workingDay"></p>
+        </answer>
+</div>
+
+<div class="col_fifth">
+    <question2>
     <p>
       Is it time for lunch?
     </p>
+  </question2>
+  <answer>
+    <p id="lunchTime"></p>
+    </answer>
+  </div>
+  <div class="col_fifth">
+    <question3>
     <p>
       Is Kim ready?
     </p>
-  </question>
+  </question3>
   <answer>
-    <p id="workingDay"></p>
-    <p id="lunchTime"></p>
     <p id="kimIsReady"></p>
   </answer>
+  </div>
+  <questions>
 </body>
