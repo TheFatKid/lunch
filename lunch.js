@@ -32,28 +32,28 @@
 
   document.getElementById("currentTime").innerHTML = time;
 
-  function dayOfTheWeek() {
+ function dayOfTheWeek() {
     switch (new Date().getDay()) {
       case 0:
-        currentDay = "Today is Sunday, and today you eat at home!";
+        currentDay = "Sunday: No food! Eat at home!";
         break;
       case 1:
-        currentDay = "Today is Monday and the menu is: Meatballs in curry with rice.";
+        currentDay = "Monday: Meatballs in curry with rice.";
         break;
       case 2:
-        currentDay = "Today is Tuesday and the menu is: Coq au vin with mashed potatoes.";
+        currentDay = "Tuesday: Coq au vin with mashed potatoes.";
         break;
       case 3:
-        currentDay = "Today it is Wednesday and the menu is: Thai beef salad with glass noodle salad.";
+        currentDay = "Wednesday: Thai beef salad with glass noodle salad.";
         break;
       case 4:
-        currentDay = "Today it is Thursday and the menu is: Burning love with mash and bacon.";
+        currentDay = "Thursday: Burning love with mash and bacon.";
         break;
       case 5:
-        currentDay = "Today it is Friday and the menu is: Mexican day with spinach tortillas and whatever else belongs to.";
+        currentDay = "Friday: Mexican day with spinach tortillas and whatever else belongs to.";
         break;
       case 6:
-        currentDay = "Saturday, and today you eat at home!";
+        currentDay = "Saturday: No food! Eat at home!";
       }
     }
       document.getElementById("Day").innerHTML = currentDay;
